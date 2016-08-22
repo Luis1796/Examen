@@ -9,7 +9,3 @@ def zip(lista1,lista2):
 	print(tupla) 
 
 
-lista1=[1,2,3] 
-lista2=['f','h','y']
-zip(lista2,lista1)
-
