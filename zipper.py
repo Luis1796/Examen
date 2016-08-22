@@ -4,9 +4,10 @@ def zip(lista1,lista2):
 	tupla =[]
 
 	for  i in lista1:  
-		tupla.append([(i,lista2[j])]) 
-		j+=1
-	print(tupla) 
+		tupla.append((i,lista2[j])) 
+		j+=1 
+
+	return(tupla) 
 
 
 def unzip(lista):
